@@ -1,3 +1,5 @@
-export * from './Hero/Hero';
+
 export * from './Layout/Layout';
-export * from './Navbar';
+export * from './UI/Navbar';
+export * from './UI/Particles';
+export * from './sections/Hero';
