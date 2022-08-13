@@ -7,7 +7,7 @@ function App() {
   return (
     <Layout>
       <Hero />
-      <ParticlesComponent id='heroparticles'/>
+      <ParticlesComponent />
     </Layout>
   );
 }
