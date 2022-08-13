@@ -1,5 +1,5 @@
 import { NavLinks } from './NavLinks';
-import logo from '@/assets/Logos/fran.m.svg';
+import logo from '../../../assets/Logos/logo1.svg';
 
 import {useState } from 'react';
 import { useResize } from '@/hooks/useResize';
