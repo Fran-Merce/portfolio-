@@ -1,6 +1,6 @@
 import React from 'react';
-import { FiGithub, FiLinkedin } from 'react-icons/Fi';
-import { GoMail } from 'react-icons/Go';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { GoMail } from 'react-icons/go';
 const iconStyle = 'text-cyan-500 opacity-[0.5] hover:opacity-100';
 
 export const Contact = () => {
