@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600&family=Fira+Code:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,11 @@
 
 
 * {
-  @apply font-roboto;
+  @apply font-firaCode;
+}
 
-
+@layer components{
+  .section{
+    @apply flex-col  text-white container  min-h-[95vh] flex items-center justify-center md:justify-around md:flex-row m-auto
+  }
 }

@@ -8,8 +8,11 @@ interface Iprops {
 
 export const MobileButton = ({ setOpen, open }: Iprops) => {
   return (
-    <div onClick={() => setOpen(!open)} className='md:hidden'>
-      <GiHamburgerMenu color='#22e3dd' size={'2.5rem'} />
-    </div>
+    <GiHamburgerMenu
+      className='md:hidden'
+      onClick={() => setOpen(!open)}
+      color='#22e3dd'
+      size={'2.5rem'}
+    />
   );
 };

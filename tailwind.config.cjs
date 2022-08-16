@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily:{
         roboto:['Roboto Mono', 'monospace'],
+        firaCode:['Fira Code', 'monospace'],
       }
     },
   },
