@@ -16,8 +16,16 @@ export const Hero = () => {
         </h1>
         <p className='pl-1 w-fit  text-cyan-500  text-2xl'>Frontend Developer</p>
         <div className='flex gap-6 mt-5  '>
-          <button className='custom-btn btnAnimated1'><span>Curriculm</span></button>
-          <button className='custom-btn btnAnimated2'> <span>Sobre mi</span></button>
+          <a href='/cv.pdf' download>
+            <button className='custom-btn btnAnimated1'>
+              <span>Curriculm</span>
+            </button>
+          </a>
+          <a href='#about'>
+            <button className='custom-btn btnAnimated2'>
+              <span>Sobre mi</span>
+            </button>
+          </a>
         </div>
       </div>
       <img
@@ -26,7 +34,7 @@ export const Hero = () => {
         data-aos='fade-up-left'
         data-aos-duration='1000'
       />
-      <Contact/>
+      <Contact />
     </section>
   );
 };

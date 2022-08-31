@@ -5,5 +5,5 @@ interface Props {
 }
 
 export const Layout = ({ children }: Props) => {
-  return <div className='min-h-screen bg-transparent flex flex-col  '>{children}</div>;
+  return <div className='min-h-screen bg-transparent flex flex-col'>{children}</div>;
 };

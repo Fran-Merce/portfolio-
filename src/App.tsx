@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import ParticlesComponent from './components/UI/Particles/Particles';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Skills } from './components/sections/Skills/Skills';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <main>
         <Hero />
         <AboutMe />
+        <Skills/>
       </main>
       <ParticlesComponent />
     </Layout>
