@@ -25,7 +25,7 @@ export const Hero = () => {
           />
 
           <ButtonLink
-            href='https://drive.google.com/file/d/1WhmF117tA9MTAEiMuYpHbM_ga6SpKx5p/view?usp=sharing'
+            href='#contact'
             type='btn-secondary'
             text='Contacto'
           />

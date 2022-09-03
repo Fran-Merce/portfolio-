@@ -6,7 +6,7 @@ export * from './UI';
 export * from './sections/AboutMe';
 export * from './sections/Hero';
 export * from './sections/Proyects/ProyectCard';
-export * from './sections/Proyects/Proyects';
+export * from './sections/Proyects/ProyectsSection';
 export * from './sections/Skills/SkillCard';
 export * from './sections/Skills/Skills';
 export * from './sections';

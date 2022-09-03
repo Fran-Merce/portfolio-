@@ -1,0 +1,42 @@
+export default [
+  {
+    title: 'Gradient Generator',
+    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    techs: ['Vanilla Js', 'CSS3', 'HTML5'],
+    link: 'https://gradient-generator-silk.vercel.app/',
+    github: 'https://github.com/Fran-Merce/gradient-generator',
+    img: 'proyects-imgs/gradient-gen.png',
+  },
+  {
+    title: 'Shop Glow',
+    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    techs: ['HTML', 'CSS3', 'Js', ' Sweet alert 2'],
+    link: 'https://shopglow-integrador.vercel.app/',
+    github: 'https://github.com/Fran-Merce/SHOPGLOW-integrador',
+    img: '/proyects-imgs/shop-glow.png',
+  },
+  {
+    title: 'Journal App',
+    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    techs: ['React', 'Redux', 'ReduxRTK', 'MUI', ' Firebase', 'Claudinary'],
+    link: 'https://journal-app-2-0.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Journal-app-2.0',
+    img: '/proyects-imgs/journal-app.png',
+  },
+  {
+    title: 'Fake Eccomerse',
+    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    techs: ['React', 'Redux', 'Styled', ' Components', 'Firebase', 'Formik'],
+    link: 'https://fake-eccomerse.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Fake-Eccomerse',
+    img: '/proyects-imgs/Fake-Eccomerse.png',
+  },
+  {
+    title: 'Rick and Morty WIki',
+    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    techs: ['React', 'Tailwind'],
+    link: 'https://rick-and-morty-xi-two.vercel.app',
+    github: 'https://github.com/Fran-Merce/Rick-and-morty-app',
+    img: '/proyects-imgs/morty-app.png',
+  },
+];
