@@ -6,7 +6,7 @@ export const NavLinks = () => {
       <Link href='#about'>Sobre mi</Link>
       <Link href='#skills'>Habilidades</Link>
       <Link href='#proyects'>Proyectos</Link>
-      <Link href='/'>Contacto</Link>
+      <Link href='#footer'>Contacto</Link>
     </div>
   );
 };

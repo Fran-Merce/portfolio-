@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Gradient Generator',
-    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    desc: 'Generador de gradientes con scroll infinito que permite seleccionar 3 tipos de gradientes distintos  Hecho con vanilla js.',
     techs: ['Vanilla Js', 'CSS3', 'HTML5'],
     link: 'https://gradient-generator-silk.vercel.app/',
     github: 'https://github.com/Fran-Merce/gradient-generator',
@@ -9,15 +9,15 @@ export default [
   },
   {
     title: 'Shop Glow',
-    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
-    techs: ['HTML', 'CSS3', 'Js', ' Sweet alert 2'],
+    desc: 'Frontend de un ecommerce de productos de Ropa en el cual se pueden filtar, agregar productos al carrito y mas.',
+    techs: ['HTML', 'CSS3', 'Js', 'Sweet alert 2'],
     link: 'https://shopglow-integrador.vercel.app/',
     github: 'https://github.com/Fran-Merce/SHOPGLOW-integrador',
     img: '/proyects-imgs/shop-glow.png',
   },
   {
     title: 'Journal App',
-    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
+    desc: 'Aplicacion web, que permite guardar diferentes notas en una base de datos, asi como tambien agregar images en la nota.',
     techs: ['React', 'Redux', 'ReduxRTK', 'MUI', ' Firebase', 'Claudinary'],
     link: 'https://journal-app-2-0.vercel.app/',
     github: 'https://github.com/Fran-Merce/Journal-app-2.0',
@@ -25,18 +25,26 @@ export default [
   },
   {
     title: 'Fake Eccomerse',
-    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
-    techs: ['React', 'Redux', 'Styled', ' Components', 'Firebase', 'Formik'],
+    desc: 'FrontEnd De un eccomerse de Teclados custom cuenta con varias vistas, validaciones de formularios y ruteo dinamico.',
+    techs: ['React', 'Redux', 'Styled Components', 'Firebase', 'Formik'],
     link: 'https://fake-eccomerse.vercel.app/',
     github: 'https://github.com/Fran-Merce/Fake-Eccomerse',
     img: '/proyects-imgs/Fake-Eccomerse.png',
   },
   {
     title: 'Rick and Morty WIki',
-    desc: 'loremLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque dolor, dolore hic error eos aperiam ad debitis odio aspernatur .',
-    techs: ['React', 'Tailwind'],
+    desc: 'Mini Proyecto usando la api de rick and morty .',
+    techs: ['React', 'Styled Components'],
     link: 'https://rick-and-morty-xi-two.vercel.app',
     github: 'https://github.com/Fran-Merce/Rick-and-morty-app',
     img: '/proyects-imgs/morty-app.png',
   },
+  {
+    title: 'Music is A Life Style',
+    desc:'Lading Page ficticia de un sitio de musica.',
+    techs: ['HTML', 'SCSS', 'Js'],
+    link: 'https://proyecto-integrador-html-css-eta.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Proyecto-integrador-html-css',
+    img: '/proyects-imgs/music-is-a-life.png',
+  }
 ];

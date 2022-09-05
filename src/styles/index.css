@@ -8,8 +8,11 @@
 * {
   @apply font-firaCode;
   scroll-behavior: smooth;
-}
 
+}
+html{
+  @apply bg-black
+}
 @layer components {
   .section {
     @apply flex-col text-white container min-h-[95vh] flex items-center justify-center md:justify-around md:flex-row m-auto
@@ -17,10 +20,10 @@
 }
 
 .astronaut-animation {
-animation-name: astronaut;
-animation-duration: 25s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
+  animation-name: astronaut;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 
 }
 
@@ -32,17 +35,4 @@ animation-timing-function: linear;
   100% {
     left: 100%;
   }
-}
-.dios{
-  margin: 1rem auto;
-    width: 70%;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 2rem;
-   @media (max-width: 768px) {
-    grid-template-columns: 1fr 2fr
-    
-   }
 }

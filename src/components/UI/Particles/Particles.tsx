@@ -12,12 +12,11 @@ const ParticlesComponent = () => {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container: {} | undefined) => {}, []);
+
   return (
     <Particles
       id='tsparticles'
       init={particlesInit}
-      loaded={particlesLoaded}
       options={options}
     />
   );
