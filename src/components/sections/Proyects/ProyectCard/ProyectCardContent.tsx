@@ -10,7 +10,7 @@ export const ProyectCardContent = ({
 }: ProyectCardInterface) => {
   return (
     <div className='flex flex-col justify-center max-w-[450px] items-center lg:items-start'>
-      <h2 className='text-4xl text-center xs:text-left  text-cyan-400'>{title}</h2>
+      <h2 className='text-4xl text-center   text-cyan-400'>{title}</h2>
       <ul className='flex justify-center flex-wrap gap-1 text-blue-600 my-2 lg:justify-start'>
         {techs.map((tech, index) => (
           <li key={tech}>

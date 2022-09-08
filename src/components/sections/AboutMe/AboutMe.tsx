@@ -25,10 +25,9 @@ export const AboutMe = () => {
               target={'_blank'}
               className='cursor-pointer hover:text-blue-600'
             >
-              Alkemy 
+              Alkemy
             </a>
-          </Marker>
-          . {''} Mi <Marker>objetivo</Marker> es seguir creciendo como desarrollador y
+          </Marker>.{''} Mi <Marker>objetivo</Marker> es seguir creciendo como desarrollador y
           poder trabajar en proyectos interesantes ya sean Frontend o Fullstack y
           obtener mi primer empleo it
         </p>
