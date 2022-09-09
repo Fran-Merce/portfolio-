@@ -10,7 +10,7 @@ export const Astronaut = () => {
   }, [clicked, hovered]);
 
   useEffect(() => {
-    if (refVideo.current) refVideo.current.volume = 0.5;
+    if (refVideo.current) refVideo.current.volume = 0.7;
     if (clicked && refVideo.current) refVideo.current.play();
   }, [clicked]);
 
@@ -26,7 +26,7 @@ export const Astronaut = () => {
           src='/astronaut.gif'
           alt='astronaut pixel-art image'
         />
-        <audio ref={refVideo} src='/audio-astronaut.mp3'></audio>
+        <audio ref={refVideo} src='/audio-astronaut.mp3' />
         {clicked && (
           <p className='text-white text-xs  absolute min-w-[150px] left-0 top-[-80px] font-firaCode font-semibold  '>
             Do you know where I parked my{' '}
