@@ -7,9 +7,9 @@ interface Props {
   target?: string;
 }
 
-export const ButtonLink = ({ text,href, type,target}: Props) => {
+export const ButtonLink = ({ text, href, type, target }: Props) => {
   return (
-    <a className='max-w-fit' target={target} href={href}>
+    <a className='max-w-fit ' target={target} href={href}>
       <button className={`custom-btn  ${type}`}>
         <span>{text}</span>
       </button>

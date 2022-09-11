@@ -1,7 +1,7 @@
 import '@/styles/btns.css';
 import img from '@/assets/hero.gif';
 import { Contact } from '../../UI/contact/contact';
-import { ButtonLink } from '@/components/UI/Button';
+import { ButtonLink } from '@/components/UI/ButtonLink';
 
 export const Hero = () => {
   return (
@@ -25,7 +25,7 @@ export const Hero = () => {
           />
 
           <ButtonLink
-            href='#contact'
+            href='#footer'
             type='btn-secondary'
             text='Contacto'
           />

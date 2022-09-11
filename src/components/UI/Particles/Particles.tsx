@@ -12,7 +12,6 @@ const ParticlesComponent = () => {
     await loadFull(engine);
   }, []);
 
-
   return (
     <Particles
       id='tsparticles'

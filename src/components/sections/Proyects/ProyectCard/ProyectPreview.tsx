@@ -1,4 +1,4 @@
-import { useResize } from '@/hooks/useResize';
+
 
 interface Props {
   img: string;
