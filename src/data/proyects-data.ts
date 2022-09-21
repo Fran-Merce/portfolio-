@@ -8,6 +8,14 @@ export default [
     img: 'proyects-imgs/gradient-gen.png',
   },
   {
+    title: 'Rick and Morty WIki',
+    desc: 'Mini Proyecto usando la api de rick and morty.',
+    techs: ['React', 'Typescript', 'Styled Components'],
+    link: 'https://rick-and-morty-v2.vercel.app/',
+    github: 'https://github.com/Fran-Merce/rick-and-morty-v2',
+    img: '/proyects-imgs/morty-app.png',
+  },
+  {
     title: 'Shop Glow',
     desc: 'Frontend de un ecommerce de productos de Ropa en el cual se pueden filtar, agregar productos al carrito y mas.',
     techs: ['HTML', 'CSS3', 'Js', 'Sweet alert 2'],
@@ -31,20 +39,13 @@ export default [
     github: 'https://github.com/Fran-Merce/Fake-Eccomerse',
     img: '/proyects-imgs/Fake-Eccomerse.png',
   },
-  {
-    title: 'Rick and Morty WIki',
-    desc: 'Mini Proyecto usando la api de rick and morty.',
-    techs: ['React', 'Styled Components'],
-    link: 'https://rick-and-morty-xi-two.vercel.app',
-    github: 'https://github.com/Fran-Merce/Rick-and-morty-app',
-    img: '/proyects-imgs/morty-app.png',
-  },
+
   {
     title: 'Music is A Life Style',
-    desc:'Lading Page ficticia de un sitio de musica.',
+    desc: 'Lading Page ficticia de un sitio de musica.',
     techs: ['HTML', 'SCSS', 'Js'],
     link: 'https://proyecto-integrador-html-css-eta.vercel.app/',
     github: 'https://github.com/Fran-Merce/Proyecto-integrador-html-css',
     img: '/proyects-imgs/music-is-a-life.png',
-  }
+  },
 ];

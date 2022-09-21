@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Footer } from '../sections/Footer/Footer';
 import { Navbar } from '../UI';
 
@@ -7,6 +7,8 @@ interface Props {
 }
 
 export const Layout = ({ children }: Props) => {
+
+
   return (
     <div className='min-h-screen bg-transparent flex flex-col'>
       <Navbar />
