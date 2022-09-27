@@ -1,11 +1,27 @@
 export default [
   {
+    title: 'Custom Fans',
+    desc: 'FrontEnd De un eccomerse de Teclados custom cuenta con varias vistas, validaciones de formularios y ruteo dinamico.',
+    techs: ['React', 'Redux', 'Styled Components', 'Firebase', 'Formik'],
+    link: 'https://custom-fans.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Fake-Eccomerse',
+    img: '/proyects-imgs/Fake-Eccomerse.png',
+  },
+  {
     title: 'Gradient Generator',
     desc: 'Generador de gradientes con scroll infinito que permite seleccionar 3 tipos de gradientes distintos  Hecho con vanilla js.',
     techs: ['Vanilla Js', 'CSS3', 'HTML5'],
     link: 'https://gradient-generator-silk.vercel.app/',
     github: 'https://github.com/Fran-Merce/gradient-generator',
     img: 'proyects-imgs/gradient-gen.png',
+  },
+  {
+    title: 'Journal App',
+    desc: 'Aplicacion web, que permite guardar diferentes notas en una base de datos, asi como tambien agregar images en la nota.',
+    techs: ['React', 'Redux', 'ReduxRTK', 'MUI', ' Firebase', 'Claudinary'],
+    link: 'https://journal-app-2-0.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Journal-app-2.0',
+    img: '/proyects-imgs/journal-app.png',
   },
   {
     title: 'Rick and Morty WIki',
@@ -22,22 +38,6 @@ export default [
     link: 'https://shopglow-integrador.vercel.app/',
     github: 'https://github.com/Fran-Merce/SHOPGLOW-integrador',
     img: '/proyects-imgs/shop-glow.png',
-  },
-  {
-    title: 'Journal App',
-    desc: 'Aplicacion web, que permite guardar diferentes notas en una base de datos, asi como tambien agregar images en la nota.',
-    techs: ['React', 'Redux', 'ReduxRTK', 'MUI', ' Firebase', 'Claudinary'],
-    link: 'https://journal-app-2-0.vercel.app/',
-    github: 'https://github.com/Fran-Merce/Journal-app-2.0',
-    img: '/proyects-imgs/journal-app.png',
-  },
-  {
-    title: 'Custom Fans',
-    desc: 'FrontEnd De un eccomerse de Teclados custom cuenta con varias vistas, validaciones de formularios y ruteo dinamico.',
-    techs: ['React', 'Redux', 'Styled Components', 'Firebase', 'Formik'],
-    link: 'https://custom-fans.vercel.app/',
-    github: 'https://github.com/Fran-Merce/Fake-Eccomerse',
-    img: '/proyects-imgs/Fake-Eccomerse.png',
   },
 
   {
