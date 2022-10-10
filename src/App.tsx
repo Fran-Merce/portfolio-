@@ -1,4 +1,4 @@
-import { Contact} from './components';
+
 import { Layout } from './components/Layout/Layout';
 import { AboutMe, Hero, Proyects } from './components/sections';
 import { useEffect } from 'react';
@@ -9,6 +9,7 @@ import { ContactSection } from './components/sections/Contact';
 import { ToastContainer } from 'react-toastify';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Contact } from './components';
 const App = () => {
   useEffect(() => {
     AOS.init();
