@@ -1,5 +1,4 @@
 export * from './Layout/Layout';
-export * from './UI/Contact';
 export * from './UI/Navbar';
 export * from './UI/Particles';
 export * from './UI';
