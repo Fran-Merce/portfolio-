@@ -4,7 +4,7 @@ import { GoMail } from 'react-icons/go';
 import { useScroll } from '@/hooks/useScroll';
 const iconStyle = 'text-cyan-500 opacity-[0.5] hover:opacity-100';
 
-export const Contact = () => {
+export const ContactLeft = () => {
 
   const footerSize = 138;
   const render = useScroll(footerSize);

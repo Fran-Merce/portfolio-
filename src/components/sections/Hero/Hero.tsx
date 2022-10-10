@@ -1,7 +1,8 @@
 import '@/styles/btns.css';
 import img from '@/assets/hero.gif';
 import { ButtonLink } from '@/components/UI/ButtonLink';
-import { Contact } from '@/components/UI/Contact/Contact';
+import { ContactLeft } from '@/components/UI/ContactLeft/ContactLeft';
+
 
 export const Hero = () => {
   return (
@@ -33,7 +34,7 @@ export const Hero = () => {
         data-aos='fade-up-left'
         data-aos-duration='1000'
       />
-      <Contact />
+      <ContactLeft />
     </section>
   );
 };
