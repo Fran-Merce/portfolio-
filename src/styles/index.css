@@ -8,11 +8,12 @@
 * {
   @apply font-firaCode;
   scroll-behavior: smooth;
-
 }
-html{
+
+html {
   @apply bg-black
 }
+
 @layer components {
   .section {
     @apply flex-col text-white container min-h-[95vh] flex items-center justify-center md:justify-around md:flex-row m-auto
@@ -24,7 +25,6 @@ html{
   animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-
 }
 
 @keyframes astronaut {

@@ -10,7 +10,7 @@ export const Footer = () => {
       <a href='mailto:franmerce1@gmail.com' target={'_blank'} className={hover}>
         Franmerce1@gmail.com
       </a>
-      <div className='flex text-3xl gap-2 justify-center'>
+      <div className='flex  text-3xl gap-2 justify-center'>
         <a href='https://github.com/Fran-Merce' target='blank'>
           <FaGithub className={hover} />
         </a>

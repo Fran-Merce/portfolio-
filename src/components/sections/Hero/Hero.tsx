@@ -1,6 +1,6 @@
 import '@/styles/btns.css';
 import img from '@/assets/hero.gif';
-import { Contact } from '../../UI/contact/contact';
+import { Contact } from '../../UI/contact/Contact';
 import { ButtonLink } from '@/components/UI/ButtonLink';
 
 export const Hero = () => {
@@ -21,14 +21,10 @@ export const Hero = () => {
             href='https://drive.google.com/file/d/1WhmF117tA9MTAEiMuYpHbM_ga6SpKx5p/view?usp=sharing'
             type='btn-primary'
             target='_blank'
-            text='Curriculum'
+            text='Cv online'
           />
 
-          <ButtonLink
-            href='#footer'
-            type='btn-secondary'
-            text='Contacto'
-          />
+          <ButtonLink href='#footer' type='btn-secondary' text='Contacto' />
         </div>
       </div>
       <img

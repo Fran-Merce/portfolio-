@@ -30,8 +30,8 @@ export const Astronaut = () => {
       {clicked && (
         <p className='text-white text-xs  absolute min-w-[150px] left-0 top-[-80px] font-firaCode font-semibold  '>
           Do you know where I parked my {''}
-          <Marker color='text-cyan-300'>Rocket</Marker>?
-          <Marker color='text-red-700'>HEY!!</Marker> you speak english?
+          <Marker color='text-cyan-300'>Rocket</Marker> ?
+          <Marker color='text-red-700'>HEY!!</Marker> you speak english ?
         </p>
       )}
     </div>

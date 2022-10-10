@@ -4,11 +4,12 @@ import {
   SiTypescript,
   SiRedux,
   SiTailwindcss,
-  SiStyledcomponents,
+  SiFirebase
 } from 'react-icons/si';
-import { SkillCard } from './SkillCard';
-const iconStyle = ' text-cyan-500 hover:text-cyan-600 max-w-[120px]';
 
+import { SkillCard } from './SkillCard';
+
+const iconStyle = 'text-cyan-500 hover:text-cyan-600 max-w-[120px]';
 export const Skills = () => {
   return (
     <section 
@@ -26,7 +27,7 @@ export const Skills = () => {
         <SkillCard text='React' icon={<FaReact className={iconStyle} />} />
         <SkillCard text='Redux' icon={<SiRedux className={iconStyle} />} />
         <SkillCard text='Tailwind CSS' icon={<SiTailwindcss className={iconStyle} />} />
-        <SkillCard text='Styled Components' icon={<SiStyledcomponents className={iconStyle} />} />
+        <SkillCard text='FireBase' icon={<SiFirebase className={iconStyle} />} />
       </div>
     </section>
   );
