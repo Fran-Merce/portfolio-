@@ -9,7 +9,9 @@ import { ContactSection } from './components/sections/Contact';
 import { ToastContainer } from 'react-toastify';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Contact } from './components';
+
+
+
 const App = () => {
   useEffect(() => {
     AOS.init();
@@ -23,7 +25,6 @@ const App = () => {
         <Proyects />
         <ContactSection />
       </main>
-      <Contact />
       <ParticlesComponent />
       <Astronaut />
       <ToastContainer

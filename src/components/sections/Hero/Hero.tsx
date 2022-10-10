@@ -1,8 +1,7 @@
 import '@/styles/btns.css';
 import img from '@/assets/hero.gif';
-import { Contact } from '../../UI/contact/Contact';
 import { ButtonLink } from '@/components/UI/ButtonLink';
-
+import { Contact } from '@/components/UI';
 export const Hero = () => {
   return (
     <section className='section  justify-evenly relative'>
