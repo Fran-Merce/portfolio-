@@ -9,14 +9,14 @@ import {
 } from '@/components/sections/Contact/form.models';
 
 export const useForm = () => {
-
-  const formRef = useRef<HTMLFormElement>(null);
-  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
-  const [values, setValues] = useState<FormValues>({
+  const initialValues: FormValues = {
     from_name: '',
     user_name: '',
     message: '',
-  });
+  };
+  const formRef = useRef<HTMLFormElement>(null);
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [values, setValues] = useState<FormValues>(initialValues);
 
   const handleChange = ({ target }: HandleChangeType) => {
     setValues({
@@ -38,11 +38,11 @@ export const useForm = () => {
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
         formRef.current,
-       'LWeS1yamCtc9aY2WE'
+        'LWeS1yamCtc9aY2WE'
       );
-      console.log(formRef.current);
       toast.success('Mensaje Enviado! 😎');
       setIsSubmitted(true);
+      setValues(initialValues);
     } catch (error) {
       console.log(error);
       toast.error('Error al enviar el mensaje 😞 Intente más tarde');
