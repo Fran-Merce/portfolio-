@@ -27,7 +27,10 @@ export const useForm = () => {
 
   const sendEmail = async (e: FormEvent) => {
     e.preventDefault();
-
+    if(true){
+      setIsSubmitted(true);
+      return 
+    }
     if (!formRef.current || isSubmitting) return
     const checkEmptyFields = Object.values(values).filter(value => value === '');
     if (checkEmptyFields.length) {

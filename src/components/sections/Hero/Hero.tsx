@@ -17,7 +17,7 @@ export const Hero = () => {
           FRANCISCO
         </h1>
         <p className='pl-1 w-fit  text-cyan-500  text-2xl'>
-          Frontend Developer <Icon src='/rocket2.gif' size='sm' />
+          Frontend Developer <Icon src='/rocket2.gif' size='la' />
         </p>
         <div className='flex gap-6 mt-5   '>
           <ButtonLink

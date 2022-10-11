@@ -1,26 +1,22 @@
 import { type } from 'os';
 import React from 'react';
 
-type SizeIcon = 'xs' | 'sm' | 'md' | 'la' | 'xl';
+type SizeIcon = 'xs' | 'sm' | 'md' | 'la' | 'xl' | 'xxl';
 interface IconProps {
   size?: SizeIcon;
   src: string;
   alt?: string;
 }
 const sizeIcons = {
-  xs: '8',
-  sm: '10',
-  md: '14',
-} as Record<SizeIcon, string>;
+  xs: '14px',
+  sm: '24px',
+  md: '32px',
+  la: '48px',
+  xl: '64px',
+  xxl:'128'
+} as const
 
 export const Icon = ({ src, size = 'sm', alt }: IconProps) => {
-  const sizeIcon = sizeIcons[size];
-  return (
-
-    <img src={src} className={`inline w-${sizeIcon} h-${sizeIcon}`} alt={alt} />
-  )
-
-
-}
-
-
+  const sizeIcon = { width: sizeIcons[size], heigh: sizeIcons[size] };
+  return <img src={src} style={sizeIcon} className={`inline`} alt={alt} />;
+};

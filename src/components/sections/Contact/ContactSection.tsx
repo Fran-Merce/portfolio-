@@ -43,8 +43,8 @@ export const ContactSection = () => {
           <div className='text-center flex flex-col items-center justify-center gap-5'>
             <h3 className=' text-2xl font-normal text-center  tracking-tight  text-primary-600 font-firaCode text-cyan-300 mb-10 '>
               Gracias por tu Mensaje! Te respondere pronto{' '}
-              <Icon src='/galaxy.png' size='sm' />{' '}
-              <Icon src='/astronaut-img.png' size='sm' />
+              <Icon src='/galaxy.png' size='la' />
+              <Icon src='/astronaut-img.png' size='la' />
             </h3>
             <img
               src='https://i.giphy.com/media/tXLpxypfSXvUc/giphy.webp'
