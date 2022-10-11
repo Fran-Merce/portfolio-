@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer
       id='footer'
-      className=' text-white h-28 border-t-[1px] w-full flex-col text-center items-center justify-center gap-2 flex   md:flex-row md:justify-between md:px-6    '
+      className=' text-white h-28 border-t-[1px] w-full flex-col text-center items-center justify-center gap-2 flex  md:flex-row md:justify-between md:px-6 '
     >
       <a href='mailto:franmerce1@gmail.com' target={'_blank'} className={hover}>
         Franmerce1@gmail.com

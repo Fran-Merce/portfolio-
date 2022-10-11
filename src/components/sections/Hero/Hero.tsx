@@ -22,7 +22,7 @@ export const Hero = () => {
             href='https://drive.google.com/file/d/1WhmF117tA9MTAEiMuYpHbM_ga6SpKx5p/view?usp=sharing'
             type='btn-primary'
             target='_blank'
-            text='Cv online'
+            text='CV'
           />
 
           <ButtonLink href='#footer' type='btn-secondary' text='Contacto' />

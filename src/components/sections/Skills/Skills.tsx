@@ -14,7 +14,6 @@ export const Skills = () => {
   return (
     <section 
       data-aos='fade-right'
-      id='skills'  
       data-aos-duration='1000'  
       className='min-h-screen m-auto md:w-[700px] w-full mt-20 p-4'
     >
@@ -29,6 +28,8 @@ export const Skills = () => {
         <SkillCard text='Tailwind CSS' icon={<SiTailwindcss className={iconStyle} />} />
         <SkillCard text='FireBase' icon={<SiFirebase className={iconStyle} />} />
       </div>
+      <div id='proyects' />
     </section>
+
   );
 };

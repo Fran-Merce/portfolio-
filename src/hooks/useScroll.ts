@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 
-
-export const useScroll = (elementSize:number) => {
+export const useScroll = (elementSize: number) => {
   const [render, setRender] = useState<boolean>(true);
   useEffect(() => {
     const handleScroll = () => {
@@ -14,7 +13,5 @@ export const useScroll = (elementSize:number) => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-
   return render;
-}
+};
