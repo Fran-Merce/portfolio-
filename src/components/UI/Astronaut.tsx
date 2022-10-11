@@ -12,19 +12,20 @@ export const Astronaut = () => {
     const numRand = Math.floor(Math.random() * dataAstronaut.length);
     setPhrase(dataAstronaut[numRand]);
   };
-  const { phrase: phraseData, word1, word2, word3 } = phrase as any;
+  // Todo delete any type
+  const { phrase: phraseData, word1, word2, word3 } = phrase as any
+
+  useEffect(() => {
+    if (refVideo.current) refVideo.current.volume = 0.7;
+    if (clicked && refVideo.current) {
+      randomPhrases()
+      refVideo.current.play();
+    }
+  }, [clicked]);
 
   useEffect(() => {
     if (clicked && !hovered) setTimeout(() => setClicked(false), 6000);
   }, [clicked, hovered]);
-
-  useEffect(() => {
-    if(clicked) return
-    if (refVideo.current) refVideo.current.volume = 0.7;
-    if (clicked && refVideo.current) refVideo.current.play();
-  
-    
-  }, [clicked]);
 
   return (
     <div className='bottom-0 fixed astronaut-animation  right-[40px]  w-fit sm:max-w-[100px]  '>
