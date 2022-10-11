@@ -30,7 +30,8 @@ export const useForm = () => {
   
     
     if (!formRef.current || isSubmitting) return
-    const checkEmptyFields = Object.values(values).filter(value => value === '');
+    const checkEmptyFields = Object.values(values).filter(value => value.trim() === '');
+    
     if (checkEmptyFields.length) {
       toast.error('Todos los campos son obligatorios! 😁');
       return;
