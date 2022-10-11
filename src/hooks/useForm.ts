@@ -38,7 +38,7 @@ export const useForm = () => {
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_USER_ID as string
+       'LWeS1yamCtc9aY2WE'
       );
       console.log(formRef.current);
       toast.success('Mensaje Enviado! 😎');
