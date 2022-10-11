@@ -27,15 +27,17 @@ export const useForm = () => {
 
   const sendEmail = async (e: FormEvent) => {
     e.preventDefault();
-  
-    
-    if (!formRef.current || isSubmitting) return
-    const checkEmptyFields = Object.values(values).filter(value => value.trim() === '');
-    
+
+    if (!formRef.current || isSubmitting) return;
+    const checkEmptyFields = Object.values(values).filter(
+      value => value.trim() === ''
+    );
+
     if (checkEmptyFields.length) {
       toast.error('Todos los campos son obligatorios! 😁');
       return;
     }
+    
     try {
       setisSubmitting(true);
       await emailjs.sendForm(

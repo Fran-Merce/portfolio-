@@ -9,7 +9,6 @@ export const AboutMe = () => {
         className='sm:pl-14 text-3xl md:text-5xl ml-4 text-cyan-300 mb-4 left-4 md:top-20 pt-11'
       >
         UN POCO SOBRE MI <Icon src='/rocket.gif' alt='rocket animated gif' size='la'/>
-
       </h2>
       <section
         data-aos='fade-up'

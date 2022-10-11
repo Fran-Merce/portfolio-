@@ -13,7 +13,7 @@ const sizeIcons = {
   md: '32px',
   la: '48px',
   xl: '64px',
-  xxl:'128'
+  xxl:'128px'
 } as const
 
 export const Icon = ({ src, size = 'sm', alt }: IconProps) => {

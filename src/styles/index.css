@@ -122,3 +122,28 @@ html {
     box-shadow: .2em -.2em 0 0 currentcolor;
   }
 }
+
+.arrow-up{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color:#fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: transform .3s;
+  animation: arrowAnimation linear 1;
+}
+.arrow-up:visited{
+  color:#fff;
+}
+.arrow-up:hover{
+  transform: scale(1.2);
+}
+

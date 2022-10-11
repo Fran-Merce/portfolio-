@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 
 export const useScroll = (elementSize: number) => {
   const [render, setRender] = useState<boolean>(true);
+
+
   useEffect(() => {
     const handleScroll = () => {
       window.innerHeight + window.scrollY >= document.body.offsetHeight - elementSize
