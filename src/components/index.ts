@@ -3,7 +3,6 @@ export * from './UI/Navbar';
 export * from './UI/Particles';
 export * from './UI';
 export * from './sections/AboutMe';
-
 export * from './sections/Footer/Footer';
 export * from './sections/Hero';
 export * from './sections/Proyects/ProyectCard';

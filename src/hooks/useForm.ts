@@ -9,6 +9,7 @@ import {
 } from '@/components/sections/Contact/form.models';
 
 export const useForm = () => {
+
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
   const [values, setValues] = useState<FormValues>({
@@ -34,10 +35,10 @@ export const useForm = () => {
     if (!formRef.current) return;
     try {
       await emailjs.sendForm(
-        process.env.EMAILJS_SERVICE_ID as string,
-        process.env.EMAILJS_TEMPLATE_ID as string,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID as string,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
         formRef.current,
-        process.env.EMAILJS_USER_ID
+        import.meta.env.VITE_EMAILJS_USER_ID as string
       );
       console.log(formRef.current);
       toast.success('Mensaje Enviado! 😎');
