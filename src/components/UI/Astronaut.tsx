@@ -1,15 +1,15 @@
 import { dataAstronaut } from '@/data/atronaut- phrases';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Marker } from '../sections/AboutMe/Marker';
 
 export const Astronaut = () => {
   const [hovered, setHoverd] = useState<boolean>(false);
   const [clicked, setClicked] = useState<boolean>(false);
   const refVideo = useRef<HTMLVideoElement>(null);
-  const [phrase, setPhrase] = useState(dataAstronaut[0]);
+  const [phrase, setPhrase] = useState({});
+
   const randomPhrases = () => {
     const numRand = Math.floor(Math.random() * dataAstronaut.length);
-    console.log(numRand);
     setPhrase(dataAstronaut[numRand]);
   };
   const { phrase: phraseData, word1, word2, word3 } = phrase as any;
@@ -19,9 +19,11 @@ export const Astronaut = () => {
   }, [clicked, hovered]);
 
   useEffect(() => {
+    if(clicked) return
     if (refVideo.current) refVideo.current.volume = 0.7;
     if (clicked && refVideo.current) refVideo.current.play();
-    randomPhrases();
+  
+    
   }, [clicked]);
 
   return (

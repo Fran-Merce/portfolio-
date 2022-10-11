@@ -5,6 +5,7 @@ import {AiOutlineArrowUp} from 'react-icons/ai'
 import Aos from 'aos';
 import { useHero } from '@/hooks/useHero';
 import { ToastContainer } from 'react-toastify';
+import 'aos/dist/aos.css';
 interface Props {
   children: React.ReactNode | React.ReactNode[];
 }
