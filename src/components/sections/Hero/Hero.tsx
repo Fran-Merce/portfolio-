@@ -2,7 +2,7 @@ import '@/styles/btns.css';
 import img from '@/assets/hero.gif';
 import { ButtonLink } from '@/components/UI/ButtonLink';
 import { ContactLeft } from '@/components/UI/ContactLeft/ContactLeft';
-
+import { Icon } from '../../UI/Icon';
 
 export const Hero = () => {
   return (
@@ -16,7 +16,9 @@ export const Hero = () => {
         <h1 className='text-4xl sm:text-7xl md:text-7xl  font-roboto  mb-1 tracking-wider text-start lg:text-8xl'>
           FRANCISCO
         </h1>
-        <p className='pl-1 w-fit  text-cyan-500  text-2xl'>Frontend Developer🚀</p>
+        <p className='pl-1 w-fit  text-cyan-500  text-2xl'>
+          Frontend Developer <Icon src='/rocket2.gif' size='sm' />
+        </p>
         <div className='flex gap-6 mt-5   '>
           <ButtonLink
             href='https://drive.google.com/file/d/1WhmF117tA9MTAEiMuYpHbM_ga6SpKx5p/view?usp=sharing'

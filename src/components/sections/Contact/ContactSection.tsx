@@ -2,6 +2,7 @@ import { useForm } from '@/hooks/useForm';
 import { Form } from './Form';
 import 'react-toastify/dist/ReactToastify.css';
 import { Loader } from '@/components/UI/Loader';
+import { Icon } from '@/components/UI/Icon';
 
 export const ContactSection = () => {
   const {
@@ -17,7 +18,7 @@ export const ContactSection = () => {
     return (
       <section className='min-h-screen mt-14 grid place-content-center w-full font-firaCode'>
         <div className='py-8 lg:py-16 px-4 mx-auto max-w-screen-md'>
-        <Loader/>
+          <Loader />
         </div>
       </section>
     );
@@ -41,7 +42,9 @@ export const ContactSection = () => {
         ) : (
           <div className='text-center flex flex-col items-center justify-center gap-5'>
             <h3 className=' text-2xl font-normal text-center  tracking-tight  text-primary-600 font-firaCode text-cyan-300 mb-10 '>
-              Gracias por tu Mensaje! Te respondere pronto 🚀👨‍💻
+              Gracias por tu Mensaje! Te respondere pronto{' '}
+              <Icon src='/galaxy.png' size='sm' />{' '}
+              <Icon src='/astronaut-img.png' size='sm' />
             </h3>
             <img
               src='https://i.giphy.com/media/tXLpxypfSXvUc/giphy.webp'

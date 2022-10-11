@@ -1,3 +1,4 @@
+import { Icon } from '@/components/UI/Icon';
 import { Description } from './Description';
 
 export const AboutMe = () => {
@@ -7,7 +8,8 @@ export const AboutMe = () => {
         data-aos='fade-right'
         className='sm:pl-14 text-3xl md:text-5xl ml-4 text-cyan-300 mb-4 left-4 md:top-20 pt-11'
       >
-        UN POCO SOBRE MI 🚀
+        UN POCO SOBRE MI <Icon src='/rocket.gif' alt='rocket animated gif' size='md'/>
+
       </h2>
       <section
         data-aos='fade-up'
@@ -15,7 +17,7 @@ export const AboutMe = () => {
       >
         <Description />
       </section>
-      <div id='skills'/>
+      <div id='skills' />
     </div>
   );
 };
