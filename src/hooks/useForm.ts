@@ -17,7 +17,7 @@ export const useForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
   const [values, setValues] = useState<FormValues>(initialValues);
-
+  const [isSubmitting, setisSubmitting] = useState(false);
   const handleChange = ({ target }: HandleChangeType) => {
     setValues({
       ...values,
@@ -27,13 +27,15 @@ export const useForm = () => {
 
   const sendEmail = async (e: FormEvent) => {
     e.preventDefault();
+    if (!formRef.current || isSubmitting) return
     const checkEmptyFields = Object.values(values).filter(value => value === '');
     if (checkEmptyFields.length) {
       toast.error('Todos los campos son obligatorios! 😁');
       return;
     }
-    if (!formRef.current) return;
+  
     try {
+      setisSubmitting(true);
       await emailjs.sendForm(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
@@ -41,12 +43,21 @@ export const useForm = () => {
         'LWeS1yamCtc9aY2WE'
       );
       toast.success('Mensaje Enviado! 😎');
-      setIsSubmitted(true);
       setValues(initialValues);
+      setIsSubmitted(true);
+      setisSubmitting(false);
     } catch (error) {
       console.log(error);
       toast.error('Error al enviar el mensaje 😞 Intente más tarde');
+      setisSubmitting(false);
     }
   };
-  return { handleChange, sendEmail, formRef, isSubmitted, setIsSubmitted };
+  return {
+    handleChange,
+    sendEmail,
+    formRef,
+    isSubmitted,
+    setIsSubmitted,
+    isSubmitting,
+  };
 };

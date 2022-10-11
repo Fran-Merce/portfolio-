@@ -5,8 +5,10 @@ interface FormProps {
   handleChange: (e: HandleChangeType) => void;
   sendEmail: (e: FormEvent) => Promise<void>;
   formRef: React.RefObject<HTMLFormElement>;
+
 }
-export const Form = ({ handleChange, sendEmail, formRef }: FormProps) => {
+export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
+ 
   return (
     <form
       onSubmit={sendEmail}

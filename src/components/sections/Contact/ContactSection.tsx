@@ -1,10 +1,28 @@
 import { useForm } from '@/hooks/useForm';
 import { Form } from './Form';
 import 'react-toastify/dist/ReactToastify.css';
+import { Loader } from '@/components/UI/Loader';
 
 export const ContactSection = () => {
-  const { handleChange, sendEmail, formRef, isSubmitted, setIsSubmitted } =
-    useForm();
+  const {
+    handleChange,
+    sendEmail,
+    formRef,
+    isSubmitted,
+    setIsSubmitted,
+    isSubmitting,
+  } = useForm();
+
+  if (isSubmitting) {
+    return (
+      <section className='min-h-screen mt-14 grid place-content-center w-full font-firaCode'>
+        <div className='py-8 lg:py-16 px-4 mx-auto max-w-screen-md'>
+        <Loader/>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className='min-h-screen mt-14 grid place-content-center w-full font-firaCode'>
       <div className='py-8 lg:py-16 px-4 mx-auto max-w-screen-md'>
