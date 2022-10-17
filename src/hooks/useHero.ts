@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 export const useHero = () => {
   const [isOnHero, setIsOnHero] = useState<boolean>(false);
@@ -8,11 +8,11 @@ export const useHero = () => {
   };
   const handleClick = () => {
     window.scrollTo(0, 0);
-  }
+  };
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   });
 
-  return {isOnHero,handleClick} ;
-}
+  return { isOnHero, handleClick };
+};

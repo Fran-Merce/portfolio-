@@ -23,7 +23,7 @@ export const ContactLeft = () => {
         </a>
       </li>
       <li>
-        <a href='mailto:franmerce1@gmail.com' target={'_blank'}>
+        <a href='mailto:franmerce11@gmail.com' target={'_blank'}>
           <GoMail className={iconStyle} />
         </a>
       </li>

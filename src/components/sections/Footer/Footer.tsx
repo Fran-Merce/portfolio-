@@ -7,8 +7,8 @@ export const Footer = () => {
       id='footer'
       className=' text-white h-28 border-t-[1px] w-full flex-col text-center items-center justify-center gap-2 flex  md:flex-row md:justify-between md:px-6 '
     >
-      <a href='mailto:franmerce1@gmail.com' target={'_blank'} className={hover}>
-        Franmerce1@gmail.com
+      <a href='mailto:franmerce11@gmail.com' target={'_blank'} className={hover}>
+        Franmerce11@gmail.com
       </a>
       <div className='flex  text-3xl gap-2 justify-center'>
         <a href='https://github.com/Fran-Merce' target='blank'>

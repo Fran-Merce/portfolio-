@@ -29,7 +29,7 @@ export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
           name='from_name'
           onChange={handleChange}
           className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg htmlFor=''us:ring-primary-500 htmlFor=''us:border-primary-500 block w-full p-2.5  placeholder-stone-400 text-black focus:ring-primary-500 focus:border-primary-500 shadow-sm-light font-firaCode font-medium"
-          placeholder='Franmerce1@gmail.com'
+          placeholder='Franmerce11@gmail.com'
         />
       </div>
       <div>
