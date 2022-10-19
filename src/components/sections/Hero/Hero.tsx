@@ -21,12 +21,11 @@ export const Hero = () => {
         </p>
         <div className='flex gap-6 mt-5   '>
           <ButtonLink
-            href='https://drive.google.com/file/d/1WhmF117tA9MTAEiMuYpHbM_ga6SpKx5p/view?usp=sharing'
+            href='https://drive.google.com/file/d/1KYz37Jj6miTGqE7vHp2DlnjqhUpy5BTV/view?usp=sharing'
             type='btn-primary'
             target='_blank'
             text='CV'
           />
-
           <ButtonLink href='#footer' type='btn-secondary' text='Contacto' />
         </div>
       </div>
