@@ -2,7 +2,7 @@
 
 interface Props {
   img: string;
-  link: string;
+  link?: string;
 }
 
 export const ProyectPreview = ({ img, link }: Props) => {
