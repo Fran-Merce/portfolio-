@@ -6,8 +6,6 @@ import { Astronaut } from './components/UI/Astronaut';
 import { ContactSection } from './components/sections/Contact';
 
 
-
-
 const App = () => {
   return (
     <Layout>

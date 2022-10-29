@@ -22,7 +22,10 @@ export const ProyectCardContent = ({
       </ul>
       <p className='text-stone-300 text-center lg:text-left'>{desc}</p>
       <div className='my-5 flex gap-6 text-white'>
-        <ButtonLink target='_blank' href={link} type='btn-primary' text='Deploy' />
+        {link ? 
+        <ButtonLink target='_blank' href={link} type='btn-primary' text='Deploy' /> 
+        : <ButtonLink disabled={true}   type='btn-primary' text='No Deploy' />}  
+      
         <ButtonLink
           target='_blank'
           href={github}

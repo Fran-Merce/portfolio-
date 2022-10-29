@@ -24,6 +24,14 @@ export default [
     img: '/proyects-imgs/journal-app.png',
   },
   {
+    title: 'Markdown Editor',
+    desc: 'Editor de markdown con vista previa en tiempo real.',
+    techs: ['React', 'Context api', 'Typescript', 'Styled Components'],
+    link: 'https://markdown-editor-wine.vercel.app/',
+    github: 'https://github.com/Fran-Merce/Markdown-editor',
+    img: '/proyects-imgs/markdown-editor.png',
+  },
+  {
     title: 'Rick and Morty WIki',
     desc: 'Mini Proyecto usando la api de rick and morty.',
     techs: ['React', 'Typescript', 'Styled Components'],
