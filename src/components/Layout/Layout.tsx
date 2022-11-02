@@ -17,7 +17,7 @@ export const Layout = ({ children }: Props) => {
   }, []);
 
   return (
-    <div className='min-h-screen bg-transparent flex flex-col'>
+    <div className='min-h-screen bg-transparent flex flex-col max-w-[1920px] m-auto relative'>
       <Navbar />
       {children}
       <Footer />

@@ -9,10 +9,13 @@
   @apply font-firaCode;
   scroll-behavior: smooth;
 }
-
-html {
-  @apply bg-black
+body{
+  @apply
+  relative
+  max-w-[1920px]
+  mx-auto
 }
+
 
 @layer components {
   .section {

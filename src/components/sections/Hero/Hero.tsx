@@ -36,7 +36,7 @@ export const Hero = () => {
         data-aos='fade-up-left'
         data-aos-duration='1000'
       />
-      <ContactLeft />
+    
     </section>
   );
 };

@@ -15,9 +15,9 @@ const Projects = () => {
 
       <div className='text-center'>
         <p className='text-xs sm:text-sm text-white w-full'>
-          Puedes ver mas codigo y bugs en mi github
+          Puedes ver más proyectos en mi perfil de GitHub
         </p>
-        <a href='https://github.com/Fran-Merce' className='w-fit' target='_blanck'>
+        <a href='https://github.com/Fran-Merce' className='w-fit' target='_blanck' >
           <FaGithub className='text-center block  m-auto my-4 text-2xl text-cyan-600 hover:text-cyan-500 cursor-pointer hover:scale-125 transition-all' />
         </a>
       </div>

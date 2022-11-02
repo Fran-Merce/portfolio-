@@ -8,9 +8,9 @@ interface Props {
 
 export const SkillCard = ({ icon, text }: Props) => {
   return (
-    <div className='max-w-[150px]  flex flex-col items-center justify-center gap-6 pb-2'>
+    <div className='max-w-[150px]  flex flex-col items-center justify-center gap-4 '>
       {icon}
-      <p className='text-white text-xl text-center'>{text}</p>
+      <p className='text-stone-300 text-xl text-center'>{text}</p>
     </div>
   );
 };
