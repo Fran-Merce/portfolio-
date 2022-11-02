@@ -6,7 +6,7 @@ import {
   SiFirebase,
   SiNodedotjs,
   SiExpress,
-  SiPostgresql,
+  SiMongodb,
 } from 'react-icons/si';
 
 import { SkillCard } from './SkillCard';
@@ -39,7 +39,7 @@ export const Skills = () => {
         <SkillCard text='Firebase' icon={<SiFirebase className={iconStyle} />} />
         <SkillCard text='Node' icon={<SiNodedotjs className={iconStyle} />} />
         <SkillCard text='Express' icon={<SiExpress className={iconStyle} />} />
-        <SkillCard text='Postgresql' icon={<SiPostgresql className={iconStyle} />} />
+        <SkillCard text='Mongodb' icon={<SiMongodb className={iconStyle} />} />
       </div>
 
       <div id='proyects' />
