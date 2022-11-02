@@ -1,14 +1,16 @@
-import { dataAstronaut } from '@/data/atronaut- phrases';
-import { useState, useEffect, useRef, useCallback } from 'react';
+
+import { useState, useEffect, useRef} from 'react';
 import { Marker } from '../sections/AboutMe/Marker';
 
 export const Astronaut = () => {
   const [hovered, setHoverd] = useState<boolean>(false);
   const [clicked, setClicked] = useState<boolean>(false);
   const refVideo = useRef<HTMLVideoElement>(null);
+  
   useEffect(() => {
     if (clicked && !hovered) setTimeout(() => setClicked(false), 4500);
   }, [clicked, hovered]);
+
   useEffect(() => {
     if (refVideo.current) refVideo.current.volume = 0.7;
     if (clicked && refVideo.current) refVideo.current.play();

@@ -14,7 +14,7 @@ export const Footer = () => {
         <a href='https://github.com/Fran-Merce' target='blank'>
           <FaGithub className={hover} />
         </a>
-        <a href='https://wa.me/542478472887' target='blank'>
+        <a href='https://wa.me/542478472887' target='blank' >
           <FaWhatsapp className={hover} />
         </a>
         <a href='https://www.linkedin.com/in/francisco-merce/' target='blank'>

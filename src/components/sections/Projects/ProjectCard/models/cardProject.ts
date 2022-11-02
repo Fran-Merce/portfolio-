@@ -1,4 +1,4 @@
-export interface ProyectCardInterface {
+export interface ProjectCardInterface {
   title: string;
   desc: string;
   techs: string[];

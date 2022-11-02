@@ -1,13 +1,13 @@
 import { ButtonLink } from '@/components/UI/ButtonLink';
-import { ProyectCardInterface } from './models/cardProyect';
+import { ProjectCardInterface } from './models/cardProject';
 
-export const ProyectCardContent = ({
+export const ProjectCardContent = ({
   title,
   link,
   github,
   desc,
   techs,
-}: ProyectCardInterface) => {
+}: ProjectCardInterface) => {
   return (
     <div className='flex flex-col justify-center max-w-[450px] items-center lg:items-start'>
       <h2 className='text-4xl text-center  md:text-left text-cyan-400'>{title}</h2>
@@ -22,10 +22,11 @@ export const ProyectCardContent = ({
       </ul>
       <p className='text-stone-300 text-center lg:text-left'>{desc}</p>
       <div className='my-5 flex gap-6 text-white'>
-        {link ? 
-        <ButtonLink target='_blank' href={link} type='btn-primary' text='Deploy' /> 
-        : <ButtonLink disabled={true}   type='btn-primary' text='No Deploy' />}  
-      
+        {link ? (
+          <ButtonLink target='_blank' href={link} type='btn-primary' text='Deploy' />
+        ) : (
+          <ButtonLink disabled={true} type='btn-primary' text='No Deploy' />
+        )}
         <ButtonLink
           target='_blank'
           href={github}

@@ -5,7 +5,7 @@ interface Props {
   link?: string;
 }
 
-export const ProyectPreview = ({ img, link }: Props) => {
+export const ProjectPreview = ({ img, link }: Props) => {
   return (
     <div className='w-[280px] h-[280px] md:w-[400px] md:h-[400px] '>
       <a
