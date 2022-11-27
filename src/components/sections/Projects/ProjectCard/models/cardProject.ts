@@ -4,5 +4,5 @@ export interface ProjectCardInterface {
   techs: string[];
   link?: string;
   github: string;
-  img:string;
+  img: string;
 }

@@ -1,0 +1,141 @@
+{
+  "navbar": [
+    {
+      "text": "Sobre mi",
+      "href": "#about"
+    },
+    {
+      "text": "Habilidades",
+      "href": "#skills"
+    },
+    {
+      "text": "Proyectos",
+      "href": "#projects"
+    },
+    {
+      "text": "Contacto",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "welcome": "Hola soy 👋",
+    "name": "Francisco",
+    "job": "Frontend Developer",
+    "btnContact": "Contactame",
+    "btnResume": "CV"
+  },
+  "aboutMe": {
+    "title": "Un poco Sobre mi",
+    "description": [
+      "Desarrollador Frontend autodidacta desde los 17 años. Apasionado de la programación y el desarrollo web en especial.",
+      "En 2021 decidí dar el paso de ingresar a un bootcamp de desarrollo fullstack para impulsar mis habilidades y conocimientos.",
+      "Tuve la oportunidad de realizar la aceleración para obtener un perfil Job Ready en Alkemy.",
+      "Mi Objetivo es seguir creciendo como desarrollador y poder trabajar en proyectos interesantes ya sean Frontend o Fullstack"
+    ]
+  },
+  "skills": {
+    "title": "Trabajo con "
+  },
+  "myProjects": {
+    "title": "Mis Proyectos",
+    "btn_code": "Code",
+    "btn_live": "Pagina",
+    "viewMore": "Podes ver mas proyectos en mi github",
+    "projects": [
+      {
+        "title": "Custom Fans",
+        "desc": "FrontEnd De un eccomerse de Teclados custom cuenta con varias vistas, validaciones de formularios y ruteo dinamico.",
+        "techs": [
+          "React",
+          "Redux",
+          "Styled Components",
+          "Firebase",
+          "Formik"
+        ],
+        "link": "https://custom-fans.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Fake-Eccomerse",
+        "img": "/proyects-imgs/Fake-Eccomerse.png"
+      },
+      {
+        "title": "Journal App",
+        "desc": "Aplicacion web, que permite guardar diferentes notas en una base de datos, asi como tambien agregar images en la nota.",
+        "techs": [
+          "React",
+          "Redux",
+          "ReduxRTK",
+          "MUI",
+          " Firebase",
+          "Claudinary"
+        ],
+        "link": "https://journal-app-2-0.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Journal-app-2.0",
+        "img": "/proyects-imgs/journal-app.png"
+      },
+      {
+        "title": "Markdown Editor",
+        "desc": "Editor de markdown con vista previa en tiempo real.",
+        "techs": [
+          "React",
+          "Context api",
+          "Typescript",
+          "Styled Components"
+        ],
+        "link": "https://markdown-editor-wine.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Markdown-editor",
+        "img": "/proyects-imgs/markdown-editor.png"
+      },
+      {
+        "title": "Gradient Generator",
+        "desc": "Generador de gradientes con scroll infinito que permite seleccionar 3 tipos de gradientes distintos  Hecho con vanilla js.",
+        "techs": [
+          "Vanilla Js",
+          "CSS3",
+          "HTML5"
+        ],
+        "link": "https://gradient-generator-silk.vercel.app/",
+        "github": "https://github.com/Fran-Merce/gradient-generator",
+        "img": "proyects-imgs/gradient-gen.png"
+      },
+      {
+        "title": "Rick and Morty WIki",
+        "desc": "Mini Proyecto usando la api de rick and morty.",
+        "techs": [
+          "React",
+          "Typescript",
+          "Styled Components"
+        ],
+        "link": "https: //rick-and-morty-v2.vercel.app/",
+        "github": "https: //github.com/Fran-Merce/rick-and-morty-v2",
+        "img": "/proyects-imgs/morty-app.png"
+      },
+      {
+        "title": "Music is A Life Style",
+        "desc": "Lading Page ficticia de un sitio de musica.",
+        "techs": [
+          "HTML",
+          "SCSS",
+          "Js"
+        ],
+        "link": "https://proyecto-integrador-html-css-eta.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Proyecto-integrador-html-css",
+        "img": "/proyects-imgs/music-is-a-life.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactame",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    },
+    "success": {
+      "title": "Gracias por tu Mensaje! Te respondere pronto",
+      "sendOther": "Queres Enviar otro ? Aqui{' '}"
+    }
+  },
+  "footer": {
+    "made": "Hecho con ❤️ por Francisco Merce"
+  }
+}

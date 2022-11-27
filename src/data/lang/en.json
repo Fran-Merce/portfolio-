@@ -1,0 +1,141 @@
+{
+  "navbar": [
+    {
+      "text": "About me",
+      "href": "#about"
+    },
+    {
+      "text": "Skills",
+      "href": "#skills"
+    },
+    {
+      "text": "Projects",
+      "href": "#projects"
+    },
+    {
+      "text": "Contact me",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "welcome": "Hello i am 👋",
+    "name": "Francisco",
+    "job": "Frontend Developer",
+    "btnContact": "Contact me",
+    "btnResume": "Resume"
+  },
+  "aboutMe": {
+    "title": "A little bit about me",
+    "description": [
+      "Self-taught Frontend developer since I was 17 years old. Passionate about programming and web development in particular.",
+      "In 2021 he decided to take the step of entering a fullstack development bootcamp to boost my skills and knowledge",
+      "I had the opportunity to accelerate to obtain a Job Ready profile at Alkemy",
+      "My goal is to continue growing as a developer and be able to work on interesting projects, whether they are Frontend or Fullstack."
+    ]
+  },
+  "skills": {
+    "title": "I work with"
+  },
+  "myProjects": {
+    "title": "My Projects",
+    "viewMore": "you can see more projects on my github",
+    "btn_code": "Code",
+    "btn_live": "Deploy ",
+    "projects": [
+      {
+        "title": "Custom Fans",
+        "desc": "FrontEnd of a custom keyboard ecommerce has several views, form validations and dynamic routing.",
+        "techs": [
+          "React",
+          "Redux",
+          "Styled Components",
+          "Firebase",
+          "Formik"
+        ],
+        "link": "https://custom-fans.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Fake-Eccomerse",
+        "img": "/proyects-imgs/Fake-Eccomerse.png"
+      },
+      {
+        "title": "Journal App",
+        "desc": "Web application, which allows you to save different notes in a database, as well as add images to the note.",
+        "techs": [
+          "React",
+          "Redux",
+          "ReduxRTK",
+          "MUI",
+          " Firebase",
+          "Claudinary"
+        ],
+        "link": "https://journal-app-2-0.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Journal-app-2.0",
+        "img": "/proyects-imgs/journal-app.png"
+      },
+      {
+        "title": "Markdown Editor",
+        "desc": "Markdown editor with real-time preview.",
+        "techs": [
+          "React",
+          "Context api",
+          "Typescript",
+          "Styled Components"
+        ],
+        "link": "https://markdown-editor-wine.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Markdown-editor",
+        "img": "/proyects-imgs/markdown-editor.png"
+      },
+      {
+        "title": "Gradient Generator",
+        "desc": "Gradient generator with infinite scroll that allows you to select 3 different types of gradients Made with vanilla js.",
+        "techs": [
+          "Vanilla Js",
+          "CSS3",
+          "HTML5"
+        ],
+        "link": "https://gradient-generator-silk.vercel.app/",
+        "github": "https://github.com/Fran-Merce/gradient-generator",
+        "img": "proyects-imgs/gradient-gen.png"
+      },
+      {
+        "title": "Rick and Morty WIki",
+        "desc": "Mini Project using the rick and morty api",
+        "techs": [
+          "React",
+          "Typescript",
+          "Styled Components"
+        ],
+        "link": "https: //rick-and-morty-v2.vercel.app/",
+        "github": "https: //github.com/Fran-Merce/rick-and-morty-v2",
+        "img": "/proyects-imgs/morty-app.png"
+      },
+      {
+        "title": "Music is A Life Style",
+        "desc": "Fictitious landing page of a music site.",
+        "techs": [
+          "HTML",
+          "SCSS",
+          "Js"
+        ],
+        "link": "https://proyecto-integrador-html-css-eta.vercel.app/",
+        "github": "https://github.com/Fran-Merce/Proyecto-integrador-html-css",
+        "img": "/proyects-imgs/music-is-a-life.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    },
+    "success": {
+      "title": "Thanks for your message!",
+      "sendOther": "Send another message"
+    }
+  },
+  "footer": {
+    "made": "Made with ❤️ by Francisco Merce"
+  }
+}

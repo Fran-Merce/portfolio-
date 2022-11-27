@@ -1,3 +1,4 @@
+import { IForm } from '@/context/types';
 import { FormEvent } from 'react';
 import { HandleChangeType } from './form.models';
 
@@ -5,10 +6,10 @@ interface FormProps {
   handleChange: (e: HandleChangeType) => void;
   sendEmail: (e: FormEvent) => Promise<void>;
   formRef: React.RefObject<HTMLFormElement>;
-
+  textData: IForm;
 }
-export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
- 
+export const Form = ({ handleChange, sendEmail, formRef, textData }: FormProps) => {
+  const { name, email, message, submit } = textData;
   return (
     <form
       onSubmit={sendEmail}
@@ -21,7 +22,7 @@ export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
           htmlFor='email'
           className="block mb-2 text-sm htmlFor=''t-medium text-cyan-400 font-firaCode"
         >
-          Email
+          {email}
         </label>
         <input
           type='email'
@@ -38,7 +39,7 @@ export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
           id='user_name'
           className='block mb-2 text-sm font-medium text-cyan-400 font-firaCode'
         >
-          Nombre
+          {name}
         </label>
         <input
           onChange={handleChange}
@@ -54,7 +55,7 @@ export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
           htmlFor='message'
           className='block mb-2 text-sm font-medium  text-cyan-400'
         >
-          Mensaje
+          {message}
         </label>
         <textarea
           onChange={handleChange}
@@ -67,7 +68,7 @@ export const Form = ({ handleChange, sendEmail, formRef}: FormProps) => {
       </div>
       <div className='text-center'>
         <button className='custom-btn btn-primary' type='submit'>
-          <span className='text-white'>Enviar</span>
+          <span className='text-white'>{submit}</span>
         </button>
       </div>
     </form>

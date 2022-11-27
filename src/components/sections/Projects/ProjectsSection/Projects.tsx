@@ -1,23 +1,29 @@
-import ProyectCard from '../ProjectCard/ProjectCard';
-import proyectsData from '@/data/projects-data';
+import ProjectCard from '../ProjectCard/ProjectCard';
+
 import { FaGithub } from 'react-icons/fa';
+import { useLangContext } from '@/context/lang.context';
+
+import { IMyProjects, IProject } from '@/context/types';
 
 const Projects = () => {
+  const {
+    langContextData: { myProjects },
+  } = useLangContext();
+  const { title, viewMore, projects }: IMyProjects = myProjects;
+
   return (
     <section
       data-aos='fade-up'
       className='flex min-h-screen p-5 w-full flex-col flex-wrap items-center justify-center gap-9 max-w-7xl m-auto '
     >
-      <h2 className='text-cyan-300 text-4xl'>Mis Proyectos</h2>
-      {proyectsData.map(proyect => (
-        <ProyectCard key={proyect.title} {...proyect} />
+      <h2 className='text-cyan-300 text-4xl'>{title}</h2>
+      {projects?.map((project: IProject) => (
+        <ProjectCard key={project.title} {...project} />
       ))}
 
       <div className='text-center'>
-        <p className='text-xs sm:text-sm text-white w-full'>
-          Puedes ver más proyectos en mi perfil de GitHub
-        </p>
-        <a href='https://github.com/Fran-Merce' className='w-fit' target='_blanck' >
+        <p className='text-xs sm:text-sm text-white w-full'>{viewMore}</p>
+        <a href='https://github.com/Fran-Merce' className='w-fit' target='_blank'>
           <FaGithub className='text-center block  m-auto my-4 text-2xl text-cyan-600 hover:text-cyan-500 cursor-pointer hover:scale-125 transition-all' />
         </a>
       </div>

@@ -1,12 +1,11 @@
-
-import { useState, useEffect, useRef} from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Marker } from '../sections/AboutMe/Marker';
 
 export const Astronaut = () => {
   const [hovered, setHoverd] = useState<boolean>(false);
   const [clicked, setClicked] = useState<boolean>(false);
   const refVideo = useRef<HTMLVideoElement>(null);
-  
+
   useEffect(() => {
     if (clicked && !hovered) setTimeout(() => setClicked(false), 4500);
   }, [clicked, hovered]);
@@ -32,7 +31,7 @@ export const Astronaut = () => {
         <p className='text-white text-xs  absolute min-w-[150px] left-0 top-[-80px] font-firaCode font-semibold  '>
           Do you know where I parked my {''}
           <Marker color='text-cyan-300'>Rocket</Marker>?
-          <Marker color='text-red-700'>HEY!!</Marker> you speak english?
+          <Marker color='text-red-700'> HEY!!</Marker> you speak english?
         </p>
       )}
     </div>

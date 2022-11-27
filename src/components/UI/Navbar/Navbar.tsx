@@ -10,14 +10,14 @@ export const Navbar = () => {
   const isPhone = useResize(768);
   return (
     <header>
-      <nav className='h-24 w-full flex items-center justify-between px-4 '>
+      <div className='h-24 w-full flex items-center justify-between px-4 '>
         <Link href='/'>
-          <img  src={logo} alt='logo' />
+          <img src={logo} alt='logo' />
         </Link>
         {open && isPhone && <NavLinks />}
         {!isPhone && <NavLinks />}
         <MobileButton setOpen={setOpen} open={open} />
-      </nav>
+      </div>
     </header>
   );
 };

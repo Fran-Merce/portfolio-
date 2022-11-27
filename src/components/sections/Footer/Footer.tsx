@@ -1,10 +1,14 @@
+import { useLangContext } from '@/context/lang.context';
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 export const Footer = () => {
   const hover = 'cursor-pointer hover:text-stone-400';
+  const {
+    langContextData: { footer },
+  } = useLangContext();
   return (
     <footer
-      id='footer'
+      id='contact'
       className=' text-white h-28 border-t-[1px] w-full flex-col text-center items-center justify-center gap-2 flex  md:flex-row md:justify-between md:px-6 '
     >
       <a href='mailto:franmerce11@gmail.com' target={'_blank'} className={hover}>
@@ -14,14 +18,14 @@ export const Footer = () => {
         <a href='https://github.com/Fran-Merce' target='blank'>
           <FaGithub className={hover} />
         </a>
-        <a href='https://wa.me/542478472887' target='blank' >
+        <a href='https://wa.me/542478472887' target='blank'>
           <FaWhatsapp className={hover} />
         </a>
         <a href='https://www.linkedin.com/in/francisco-merce/' target='blank'>
           <FaLinkedin className={hover} />
         </a>
       </div>
-      <p>Hecho con ❤️ Por Francisco Merce </p>
+      <p>{footer.made}</p>
     </footer>
   );
 };

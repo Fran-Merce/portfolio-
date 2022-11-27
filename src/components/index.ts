@@ -3,6 +3,7 @@ export * from './UI/ContactLeft/ContactLeft';
 export * from './UI/Navbar';
 export * from './UI/Particles';
 export * from './UI';
+export * from './index';
 export * from './sections/AboutMe';
 export * from './sections/Contact';
 export * from './sections/Footer/Footer';
