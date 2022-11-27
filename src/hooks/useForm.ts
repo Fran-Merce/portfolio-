@@ -36,16 +36,17 @@ export const useForm = () => {
     });
   };
 
-  const sendEmail = async (e: FormEvent) => {
-    debugger;
+  const sendEmail = async (e: FormEvent<Element>): Promise<void> => {
     e.preventDefault();
     if (!formRef.current || isSubmitting) return;
     const checkEmptyFields = Object.values(values).filter(
       value => value.trim() === ''
     );
 
-    if (checkEmptyFields.length)
-      return toast.error(lang === 'ES' ? ToastErrorES : ToastErrorEN);
+    if (checkEmptyFields.length) {
+      toast.error(lang === 'ES' ? ToastErrorES : ToastErrorEN);
+      return;
+    }
 
     try {
       setIsSubmitting(true);
