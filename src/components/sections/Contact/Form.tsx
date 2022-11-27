@@ -9,7 +9,7 @@ interface FormProps {
   textData: IForm;
 }
 export const Form = ({ handleChange, sendEmail, formRef, textData }: FormProps) => {
-  const { name, email, message, submit } = textData;
+  const { name, email, message, submit, placeholder } = textData;
   return (
     <form
       onSubmit={sendEmail}
@@ -63,7 +63,7 @@ export const Form = ({ handleChange, sendEmail, formRef, textData }: FormProps) 
           id='message'
           rows={6}
           className='block p-2.5 w-full text-sm  bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 text-black font-medium'
-          placeholder='Hola! Te encontré en tu página y quisiera charlar contigo. ¡Gracias!'
+          placeholder={placeholder}
         ></textarea>
       </div>
       <div className='text-center'>

@@ -42,6 +42,7 @@ export interface IForm {
   email: string;
   message: string;
   submit: string;
+  placeholder: string;
 }
 
 interface Success {

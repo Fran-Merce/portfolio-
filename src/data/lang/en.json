@@ -128,7 +128,8 @@
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "submit": "Submit"
+      "submit": "Submit",
+      "placeholder": "Hello! I found you on your page and would like to chat with you. Thank you"
     },
     "success": {
       "title": "Thanks for your message!",
