@@ -20,24 +20,25 @@
   "hero": {
     "welcome": "Hola soy 👋",
     "name": "Francisco",
-    "job": "Frontend Developer",
+    "job": "Fullstack Developer",
     "btnContact": "Contactame",
     "btnResume": "CV"
   },
   "aboutMe": {
     "title": "Un poco Sobre mi",
     "description": [
-      "Desarrollador Frontend autodidacta desde los 17 años. Apasionado de la programación y el desarrollo web en especial.",
+      "Desarrollador Fullstack autodidacta desde los 17 años.",
+      "Apasionado de la programación y el desarrollo web.",
       "En 2021 decidí dar el paso de ingresar a un bootcamp de desarrollo fullstack para impulsar mis habilidades y conocimientos.",
-      "Tuve la oportunidad de realizar la aceleración para obtener un perfil Job Ready en Alkemy.",
-      "Mi Objetivo es seguir creciendo como desarrollador y poder trabajar en proyectos interesantes ya sean Frontend o Fullstack"
+      "En noviembre de 2022 consegui mi primer expericia laboral como software Developer en Scalemote en la cual sigo trabajando actualmente.",
+      "Mi Objetivo es seguir creciendo como desarrollador y aumentando mi seniority."
     ]
   },
   "skills": {
     "title": "Trabajo con "
   },
   "myProjects": {
-    "title": "Mis Proyectos",
+    "title": "Proyectos Personales",
     "btn_code": "Code",
     "btn_live": "Pagina",
     "viewMore": "Podes ver mas proyectos en mi github",
@@ -107,18 +108,6 @@
         "link": "https: //rick-and-morty-v2.vercel.app/",
         "github": "https: //github.com/Fran-Merce/rick-and-morty-v2",
         "img": "/proyects-imgs/morty-app.png"
-      },
-      {
-        "title": "Music is A Life Style",
-        "desc": "Lading Page ficticia de un sitio de musica.",
-        "techs": [
-          "HTML",
-          "SCSS",
-          "Js"
-        ],
-        "link": "https://proyecto-integrador-html-css-eta.vercel.app/",
-        "github": "https://github.com/Fran-Merce/Proyecto-integrador-html-css",
-        "img": "/proyects-imgs/music-is-a-life.png"
       }
     ]
   },

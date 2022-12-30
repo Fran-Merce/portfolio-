@@ -1,4 +1,4 @@
-import imgPerfil from '@/assets/imgPerfil.png';
+import imgPerfil from "@/assets/imgPerfil.png";
 
 interface IProps {
   description: string[];
@@ -7,18 +7,20 @@ interface IProps {
 export const Description = ({ description }: IProps) => {
   return (
     <>
-      <div className='max-w-lg p-2'>
-        <div className=' text-stone-300 '>
+      <div className="max-w-lg p-2">
+        <div className=" text-stone-300 ">
           {description.map((item: string, index: number) => (
-            <p key={index}>{item}</p>
+            <p className="my-2" key={index}>
+              {item}
+            </p>
           ))}
         </div>
       </div>
-      <div className='w-2/3  md:w-1/3 max-w-xs p-5 backdrop-blur-xl transition-colors'>
+      <div className="w-2/3  md:w-1/3 max-w-xs p-5 backdrop-blur-xl transition-colors">
         <img
-          className=' object-cover filter border-b-[1px] border-cyan-300 border-r-[1px] p-4 transition-all duration-500 backdrop-blur-md h-[90%] object-center opacity-15'
+          className=" object-cover filter border-b-[1px] border-cyan-300 border-r-[1px] p-4 transition-all duration-500 backdrop-blur-md h-[90%] object-center opacity-15"
           src={imgPerfil}
-          alt=''
+          alt=""
         />
       </div>
     </>
