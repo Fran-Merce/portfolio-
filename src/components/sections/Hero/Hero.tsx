@@ -27,7 +27,7 @@ export const Hero = () => {
         </p>
         <div className='flex gap-6 mt-5   '>
           <ButtonLink
-            href='https://drive.google.com/file/d/1PmL1-6UoyUkza4QGE7zjAnLac-HELT0G/view?usp=sharing'
+            href='https://drive.google.com/file/d/1dVM7mbboQykMZtf3ocoq6AKJHdlr9kTT/view?usp=sharing'
             type='btn-primary'
             target='_blank'
             text={`${btnResume}`}
