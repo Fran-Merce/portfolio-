@@ -11,7 +11,7 @@ import {
 
 import { SkillCard } from "./SkillCard";
 
-const iconStyle = "text-cyan-500 hover:text-cyan-600 max-w-[110px]";
+const iconStyle = "text-purple-600 hover:text-purple-500 max-w-[110px]";
 export const Skills = () => {
   const {
     langContextData: { skills },
@@ -22,7 +22,7 @@ export const Skills = () => {
       data-aos-duration="1000"
       className="min-h-screen m-auto md:w-[700px] w-full mt-20 p-4"
     >
-      <h2 className="text-center mb-20 text-3xl md:text-5xl text-cyan-300">
+      <h2 className="text-center mb-20 text-3xl md:text-5xl text-white">
         {skills.title}
       </h2>
       <div className=" flex-1 justify-center text-9xl w-full  flex flex-wrap items-center  sm:justify-around gap-8 sm:flex-row">

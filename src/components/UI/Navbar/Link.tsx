@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement } from "react";
 
 interface Iprops {
   href: string;
@@ -6,7 +6,7 @@ interface Iprops {
 }
 export const Link = ({ children, href }: Iprops) => {
   return (
-    <a className='text-cyan-400 hover:text-cyan-500 ' href={href}>
+    <a className="text-purple-600 hover:text-cyan-500 " href={href}>
       {children}
     </a>
   );

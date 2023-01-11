@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { Footer } from '../sections/Footer/Footer';
-import { Navbar } from '../UI';
-import {AiOutlineArrowUp} from 'react-icons/ai'
-import Aos from 'aos';
-import { useHero } from '@/hooks/useHero';
-import { ToastContainer } from 'react-toastify';
-import 'aos/dist/aos.css';
+import React, { useEffect, useState } from "react";
+import { Footer } from "../sections/Footer/Footer";
+import { Navbar } from "../UI";
+import { AiOutlineArrowUp } from "react-icons/ai";
+import Aos from "aos";
+import { useHero } from "@/hooks/useHero";
+import { ToastContainer } from "react-toastify";
+import "aos/dist/aos.css";
 interface Props {
   children: React.ReactNode | React.ReactNode[];
 }
@@ -17,20 +17,20 @@ export const Layout = ({ children }: Props) => {
   }, []);
 
   return (
-    <div className='min-h-screen bg-transparent flex flex-col max-w-[1920px] m-auto relative'>
+    <div className="min-h-screen bg-transparent flex flex-col max-w-[1920px] m-auto relative">
       <Navbar />
       {children}
       <Footer />
       <ToastContainer
-        theme='dark'
+        theme="dark"
         autoClose={3000}
-        position='top-center'
+        position="top-center"
         limit={3}
-        className='w-full text-sm font-firaCode grid place-content-center my-0 mx-auto'
+        className="w-full text-sm font-firaCode grid place-content-center my-0 mx-auto"
       />
       {isOnHero && (
-        <button  onClick={handleClick} className='arrow-up bg-cyan-600'>
-          <AiOutlineArrowUp/>
+        <button onClick={handleClick} className="arrow-up bg-purple-700">
+          <AiOutlineArrowUp />
         </button>
       )}
     </div>

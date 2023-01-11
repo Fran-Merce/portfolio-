@@ -18,7 +18,7 @@ export const Description = ({ description }: IProps) => {
       </div>
       <div className="w-2/3  md:w-1/3 max-w-xs p-5 backdrop-blur-xl transition-colors">
         <img
-          className=" object-cover filter border-b-[1px] border-cyan-300 border-r-[1px] p-4 transition-all duration-500 backdrop-blur-md h-[90%] object-center opacity-15"
+          className=" object-cover filter border-b-[1px] border-purple-400 border-r-[1px] p-4 transition-all duration-500 backdrop-blur-md h-[90%] object-center opacity-15"
           src={imgPerfil}
           alt=""
         />
