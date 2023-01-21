@@ -1,6 +1,6 @@
+import { HandleChangeType } from "./form.models";
 import { IForm } from "@/context/types";
 import { FormEvent } from "react";
-import { HandleChangeType } from "./form.models";
 
 interface FormProps {
   handleChange: (e: HandleChangeType) => void;
@@ -19,6 +19,7 @@ export const Form = ({
     <form
       onSubmit={sendEmail}
       ref={formRef}
+      id="contact-form"
       action="#"
       className="space-y-8 sm:w-[600px] w-[80vw]  "
     >

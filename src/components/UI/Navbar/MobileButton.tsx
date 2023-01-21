@@ -1,5 +1,5 @@
-import React from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 interface Iprops {
   open: boolean;
@@ -9,10 +9,9 @@ interface Iprops {
 export const MobileButton = ({ setOpen, open }: Iprops) => {
   return (
     <GiHamburgerMenu
-      className='md:hidden'
+      className="md:hidden text-purple-600"
       onClick={() => setOpen(!open)}
-      color='#22e3dd'
-      size={'2.5rem'}
+      size={"2.5rem"}
     />
   );
 };

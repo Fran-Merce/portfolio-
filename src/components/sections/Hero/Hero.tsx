@@ -1,9 +1,9 @@
+import { useLangContext } from "../../../context/lang.context";
+import { Icon } from "../../UI/Icon";
 import img from "@/assets/hero.gif";
 import { ButtonLink } from "@/components/UI/ButtonLink";
 import { IHero } from "@/context/types";
 import "@/styles/btns.css";
-import { useLangContext } from "../../../context/lang.context";
-import { Icon } from "../../UI/Icon";
 
 export const Hero = () => {
   const {
@@ -33,7 +33,7 @@ export const Hero = () => {
             text={`${btnResume}`}
           />
           <ButtonLink
-            href="#footer"
+            href="#contact-form"
             type="btn-secondary"
             text={`${btnContact}`}
           />

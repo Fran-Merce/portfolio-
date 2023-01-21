@@ -6,7 +6,7 @@ interface Iprops {
 }
 export const Link = ({ children, href }: Iprops) => {
   return (
-    <a className="text-purple-600 hover:text-cyan-500 " href={href}>
+    <a className="text-purple-600 hover:text-purple-500 " href={href}>
       {children}
     </a>
   );
