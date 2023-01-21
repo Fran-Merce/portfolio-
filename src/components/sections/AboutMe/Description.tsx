@@ -7,7 +7,7 @@ interface IProps {
 export const Description = ({ description }: IProps) => {
   return (
     <>
-      <div className="max-w-lg p-2">
+      <div className="max-w-lg p-4">
         <div className=" text-stone-300 ">
           {description.map((item: string, index: number) => (
             <p className="my-2" key={index}>
